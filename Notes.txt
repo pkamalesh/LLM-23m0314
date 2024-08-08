@@ -1,0 +1,86 @@
+Machine Learning (ML)
+
+A subset of artificial intelligence (AI) focused on building systems that can learn from data and improve performance over time without being explicitly programmed.
+Types of ML:
+
+Supervised Learning:
+ The model learns from labeled data, making predictions based on input-output pairs. Examples include classification and regression.
+Unsupervised Learning: The model learns from unlabeled data, identifying patterns and structures. Examples include clustering and dimensionality reduction.
+Reinforcement Learning: The model learns by interacting with an environment and receiving rewards or penalties. It’s used in areas like robotics and game playing.
+Semi-supervised Learning: Combines a small amount of labeled data with a large amount of unlabeled data during training.
+Self-supervised Learning: A form of supervised learning where the model creates its own labels by using input data to generate a supervisory signal.
+Key Concepts:
+
+Training Data: Data used to train the model.
+Validation Data: Data used to tune model parameters.
+Testing Data: Data used to evaluate the final model's performance.
+Overfitting & Underfitting: Overfitting occurs when the model is too complex, capturing noise rather than the signal in the data. Underfitting happens when the model is too simple to capture the underlying pattern.
+
+Common Algorithms:
+
+Linear Regression: For predicting continuous values.
+Logistic Regression: For binary classification.
+Decision Trees & Random Forests: For both classification and regression.
+Support Vector Machines (SVM): For classification tasks.
+K-Nearest Neighbors (KNN): For both classification and regression.
+Neural Networks: The foundation for deep learning.
+
+Deep Learning (DL)
+
+A subset of machine learning focused on algorithms called neural networks that attempt to simulate the behavior of the human brain to recognize patterns, learn from data, and make decisions.
+Key Concepts:
+
+Neural Networks: Composed of layers of neurons, where each neuron receives inputs, processes them, and passes the result to the next layer.
+Activation Functions: Functions like ReLU, Sigmoid, and Tanh used to introduce non-linearity into the network.
+Backpropagation: The process of updating the weights in the neural network by propagating the error backward through the network.
+Optimization: Techniques like Gradient Descent used to minimize the loss function.
+Convolutional Neural Networks (CNNs): Specialized for processing grid-like data such as images.
+Recurrent Neural Networks (RNNs): Specialized for sequential data like time series or text.
+
+Deep Learning Frameworks:
+
+TensorFlow: Developed by Google, widely used in both research and industry.
+PyTorch: Developed by Facebook, known for its flexibility and ease of use, popular in academia.
+Keras: High-level API for building and training deep learning models, often used with TensorFlow as a backend.
+
+Natural Language Processing (NLP)
+
+A field of AI that focuses on the interaction between computers and humans through natural language. The goal is to enable machines to understand, interpret, and generate human language.
+Key Tasks in NLP:
+
+Text Classification: Assigning categories to text (e.g., sentiment analysis, spam detection).
+Named Entity Recognition (NER): Identifying and classifying entities in text (e.g., names of people, organizations).
+Machine Translation: Translating text from one language to another.
+Speech Recognition: Converting spoken language into text.
+Part-of-Speech Tagging: Labeling each word in a sentence with its part of speech (e.g., noun, verb).
+Language Modeling: Predicting the next word in a sequence, crucial for tasks like text generation.
+Key Techniques:
+
+Bag of Words (BoW): A representation of text that counts the occurrence of each word in a document.
+TF-IDF (Term Frequency-Inverse Document Frequency): A statistical measure to evaluate the importance of a word in a document relative to a corpus.
+Word Embeddings: Dense vector representations of words that capture semantic meaning, such as Word2Vec and GloVe.
+Sequence-to-Sequence Models (Seq2Seq): Often used in tasks like translation, where an input sequence is transformed into an output sequence.
+
+Large Language Models (LLMs)
+
+LLMs are a type of deep learning model, typically based on transformers, trained on vast amounts of text data to perform various NLP tasks. They are designed to generate human-like text based on the input they receive.
+
+Key Models:
+
+GPT (Generative Pretrained Transformer): A model that generates text in a human-like manner, trained on a diverse range of internet text.
+BERT (Bidirectional Encoder Representations from Transformers): A model designed for understanding the context of words in a sentence, crucial for tasks like question answering.
+T5 (Text-To-Text Transfer Transformer): A model that treats every NLP task as a text-to-text task, facilitating a uniform approach to different NLP problems.
+ChatGPT: A conversational AI based on the GPT architecture, designed to interact with users in a more natural, dialog-based format.
+Key Concepts:
+
+Transformer Architecture: The foundation for many LLMs, it uses self-attention mechanisms to process input data in parallel, making it more efficient and scalable for large datasets.
+Pretraining and Fine-tuning: LLMs are often pretrained on a large corpus of text and then fine-tuned on specific tasks to improve performance.
+Zero-shot, Few-shot, and Transfer Learning: Techniques that allow LLMs to perform tasks with little or no task-specific data.
+
+Some Applications:
+
+Content Generation: Generating articles, stories, and even code.
+Conversational Agents: Powering chatbots and virtual assistants.
+Text Summarization: Condensing long articles into short summaries.
+Language Translation: Translating text between different languages.
+Code Generation: Assisting in writing and debugging code.
